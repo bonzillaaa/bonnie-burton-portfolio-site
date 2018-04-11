@@ -1,0 +1,178 @@
+/***** BASE STYLES *****/
+
+body {
+    background-color: #16173a;
+    color: #8889a8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.full-width {
+    float: left;
+    margin: 0 auto;
+    width: 1366px;
+}
+
+.half-width {
+    float: left;
+    margin: 0 auto;
+    padding: 30px 30px 100px 30px;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    margin: 0 auto;
+    width: 455px;
+}
+
+h1, h2, h3, h4 {
+  color: #8889a8;
+  font-weight: 100;
+
+}
+
+/*******HEADER*********/
+
+header {
+    background: url('../img/heroo.png');
+    background-size: cover;
+    height: 900px;
+    width: 1366px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 26pt;
+    padding: 0px 15px 0px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header h1{
+    color: #dfa0c8;
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+    margin-top: 150px;
+    padding-left: 55px;
+}
+
+header h1 #world{
+    color: #f6fa83;
+}
+
+/************ABOUT*************/
+
+main h3{
+    font-family: 'Shrikhand', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main #about{
+    font-size: 28px;
+    padding-top: 150px;
+    padding-left: 75px;
+}
+
+/***********SERVICES**********/
+
+.full-width-services {
+    background-color: #0e0e25;
+    float: left;
+    margin: 0 auto;
+    width: 1366px;
+}
+
+.third-width-services{
+  float: left;
+  margin: 0 auto;
+  padding-left: 140px;
+  width: 300px;
+}
+
+.third-width-services img{
+  height: 200px;
+  width: auto;
+}
+
+.third-width-services h4{
+  margin-left: -20px;
+  text-align: left;
+}
+
+.third-width-services #social-media{
+  margin-left: -55px;
+  margin-bottom: -20px;
+  text-align: center;
+  width: 240px;
+}
+
+h4{
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.services{
+  line-height: 36px;
+  margin-left: -35px;
+  padding-top: 50px;
+  text-align: center;
+  width: 270px;
+}
+
+/***********WORK***************/
+
+.third-width img {
+    width: 100%;
+    height: auto;
+}
+
+
+/**********CONTACT************/
+
+.full-width-header{
+    background-color: #2a2c6f;
+    float: left;
+    margin: 0 auto;
+    width: 1366px;
+}
+
+.third-width-contact{
+    background-color: #2a2c6f;
+    float: left;
+    font-size: 24;
+    height: 200px;
+    margin: 0 auto;
+    padding: 50px;
+    width: 400px;
+}
+
+.third-width-ufo{
+  background-color: #2a2c6f;
+  float: left;
+  height: 200px;
+  margin: 0 auto;
+  padding: 30px 0px 70px 75px;
+  width: 400px;
+}
+
+.third-width-social{
+  background-color: #2a2c6f;
+  float: left;
+  height: 200px;
+  padding: 90px 41px 10px 50px;
+  width: 300px;
+}
+
+.third-width-ufo img{
+   width: 200px;
+   height: 200px;
+}
+
+.third-width-social img {
+    width: 50px;
+    height: 50px;
+}
