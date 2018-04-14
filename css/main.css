@@ -30,7 +30,11 @@ body {
 h1, h2, h3, h4 {
   color: #8889a8;
   font-weight: 100;
+}
 
+h4{
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
 /*******HEADER*********/
@@ -86,50 +90,33 @@ main #about{
     width: 1366px;
 }
 
-.third-width-services{
-  float: left;
-  margin: 0 auto;
-  padding-left: 140px;
-  width: 300px;
-}
-
 .third-width-services img{
   height: 200px;
   width: auto;
 }
 
-.third-width-services h4{
-  margin-left: -20px;
-  text-align: left;
-}
-
-.third-width-services #social-media{
-  margin-left: -55px;
-  margin-bottom: -20px;
-  text-align: center;
-  width: 240px;
-}
-
-h4{
-  font-size: 22px;
-  text-transform: uppercase;
-}
-
-.services{
+.third-width-services{
+  float: left;
   line-height: 36px;
-  margin-left: -35px;
-  padding-top: 50px;
+  margin: 25px 50px 25px 50px;
   text-align: center;
-  width: 270px;
+  width: 350px;
 }
 
 /***********WORK***************/
 
-.third-width img {
-    width: 100%;
-    height: auto;
+.third-width-work {
+    float: left;
+    line-height: 36px;
+    margin: 25px 50px 25px 50px;
+    text-align: center;
+    width: 350px;
 }
 
+.third-width img {
+    height: auto;
+    width: 100%;
+}
 
 /**********CONTACT************/
 
