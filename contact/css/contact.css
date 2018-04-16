@@ -1,11 +1,11 @@
 /***** BASE STYLES *****/
 
 body {
-    background: url('../img/planets.jpg') no-repeat center center fixed;
+    background: url('../img/together.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #2c439b;
+    color: #f6fa83;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 500;
     margin: auto;
     width: 1200px;
@@ -19,40 +19,31 @@ body {
 
 .half-width {
     float: left;
-    height: 425px;
-    margin: 0px 0px 50px 0px;
+    margin: 0 auto;
     padding: 30px 30px 100px 30px;
-    width: 520px;
+    width: 500px;
 }
 
 .third-width {
     float: left;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
     width: 350px;
 }
 
 h1, h2, h3, h4 {
   color: #2c439b;
   font-weight: 100, lighter;
-  margin: 0 auto;
-  padding: 25px 0px 25px 0px;
   text-align: center;
 }
 
-
 /*******HEADER*********/
-/*******DONE*********/
 
 header {
-    background: url('../img/planets.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: 800px;
-    width: 1200;
+  height: auto;
 }
 
 nav ul li{
-    color: #f6fa83;
     display: inline-block;
     float: left;
     font-size: 20pt;
@@ -75,7 +66,6 @@ header h1 #world{
 }
 
 /************ABOUT*************/
-/**********DONE**********/
 
 main h3{
     font-family: 'Shrikhand', cursive;
@@ -84,42 +74,24 @@ main h3{
     text-align: center;
 }
 
-.half-width{
-    background: rgba(44, 67, 155, 0.5);
-    color: #f6fa83;
+main #about{
     font-size: 28px;
-    line-height: 36px;
-    padding-left: 50px;
-}
-
-
-.half-width img{
-  margin-top: -20px;
-}
-
-.half-width p{
-  margin-top: -5px;
-}
-
-#about {
-  color: #f6fa83;
-  background: rgba(44, 67, 155, 0.5);
+    padding-top: 75px;
+    padding-left: 75px;
 }
 
 /***********SERVICES**********/
-/*********DONE*********/
 
 .full-width-services {
-    background: rgba(255, 255, 255, 0.5);
     float: left;
-    margin: 0px 0px 50px 0px;
+    margin: 0 auto;
     width: 1200px;
 }
 
 .third-width-services{
   float: left;
   margin: 0 auto;
-  padding-left: 90px;
+  padding-left: 100px;
   width: 300px;
 }
 
@@ -129,14 +101,13 @@ main h3{
 }
 
 .third-width-services h4{
-  margin-bottom: -70px;
   margin-left: -30px;
   text-align: left;
 }
 
 .third-width-services #social-media{
-  margin-bottom: -90px;
   margin-left: -50px;
+  margin-bottom: -20px;
   text-align: center;
   width: 300px;
 }
@@ -148,7 +119,7 @@ h4{
 
 .services{
   line-height: 36px;
-  margin-left: -45px;
+  margin-left: -35px;
   padding-top: 50px;
   text-align: center;
   width: 270px;
@@ -156,45 +127,8 @@ h4{
 
 /***********WORK***************/
 
-.full-width-work{
-  float: left;
-  margin: 0 auto;
-  width: 1200px;
-}
-
-.full-width-work h2{
-   color: #f6fa83;
-}
-
-.third-width-work h4{
-   color: #f6fa83;
-}
-
-.third-width-work p{
-padding-left: 35px;
-}
-
-.third-width-work{
-    color: #f6fa83;
-    height: 500px;
-    margin-bottom: 50px;
-}
-
-.full-width-work, .third-width-work{
-    background: rgba(44, 67, 155, 0.50);
-    color: #f6fa83;
-}
-
-.third-width-work {
-    float: left;
-    margin: 0 auto;
-    padding: 0px;
-    width: 400px;
-}
-
-.third-width-work img {
-    margin: 5px;
-    width: 390px;
+.third-width img {
+    width: 380px;
     height: auto;
 }
 
@@ -204,17 +138,14 @@ padding-left: 35px;
 
 
 /**********CONTACT************/
-/*******DONE*********/
 
 .full-width-header{
-    background: rgba(255, 255, 255, 0.5);
     float: left;
-    margin: 50px 0px 0px 0px;
+    margin: 0 auto;
     width: 1200px;
 }
 
 .third-width-contact{
-    background: rgba(255, 255, 255, 0.5);
     float: left;
     font-size: 24;
     height: 200px;
@@ -224,7 +155,6 @@ padding-left: 35px;
 }
 
 .third-width-ufo{
-  background: rgba(255, 255, 255, 0.5);
   float: left;
   height: 200px;
   margin: 0 auto;
@@ -233,7 +163,6 @@ padding-left: 35px;
 }
 
 .third-width-social{
-  background: rgba(255, 255, 255, 0.5);
   float: left;
   height: 200px;
   padding: 90px 55px 10px 70px;
