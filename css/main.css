@@ -61,6 +61,11 @@ nav ul li{
     text-transform: uppercase;
 }
 
+nav ul li a{
+    color: #f6fa83;
+    text-decoration: none;
+}
+
 header h1{
     color: #dfa0c8;
     font-family: 'Shrikhand', cursive;

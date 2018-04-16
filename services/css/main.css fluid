@@ -1,0 +1,166 @@
+/***** BASE STYLES *****/
+
+body {
+    background-color: #16173a;
+    color: #8889a8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    width: 100%;
+}
+
+.full-width {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.half-width {
+    align-items: center;
+    float: left;
+    margin: 0 auto;
+    padding: 30px 30px 100px 30px;
+    width: 45%;
+}
+
+.third-width {
+    float: left;
+    margin: 0 auto;
+    width: 30%;
+}
+
+h1, h2, h3, h4 {
+  color: #8889a8;
+  font-weight: 100;
+}
+
+h4{
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+/*******HEADER*********/
+
+header {
+    background: url('../img/heroo.png');
+    background-size: cover;
+    height: 900px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 26pt;
+    padding: 0px 15px 0px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header h1{
+    color: #dfa0c8;
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+    margin-top: 150px;
+    padding-left: 55px;
+}
+
+header h1 #world{
+    color: #f6fa83;
+}
+
+/************ABOUT*************/
+
+main h3{
+    font-family: 'Shrikhand', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main #about{
+    font-size: 28px;
+    padding-top: 150px;
+    padding-left: 75px;
+}
+
+/***********SERVICES**********/
+
+.full-width-services {
+    background-color: #0e0e25;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.third-width-services img{
+  height: 200px;
+  width: 30%;
+}
+
+.third-width-services{
+  float: left;
+  line-height: 36px;
+  margin: 25px 50px 25px 50px;
+  text-align: center;
+  width: 30%;
+}
+
+/***********WORK***************/
+
+.third-width-work {
+    float: left;
+    line-height: 36px;
+    margin: 25px 50px 25px 50px;
+    text-align: center;
+    width: 30%;
+}
+
+.third-width img {
+    height: auto;
+    width: 100%;
+}
+
+/**********CONTACT************/
+
+.full-width-header{
+    background-color: #2a2c6f;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.third-width-contact{
+    background-color: #2a2c6f;
+    float: left;
+    font-size: 24;
+    height: 200px;
+    margin: 0 auto;
+    padding: 50px;
+    width: 30%;
+}
+
+.third-width-ufo{
+  background-color: #2a2c6f;
+  float: left;
+  height: 200px;
+  margin: 0 auto;
+  padding: 30px 0px 70px 75px;
+  width: 30%;
+}
+
+.third-width-social{
+  background-color: #2a2c6f;
+  float: left;
+  height: 200px;
+  padding: 90px 41px 10px 50px;
+  width: 30%;
+}
+
+.third-width-ufo img{
+   width: 200px;
+   height: 200px;
+}
+
+.third-width-social img {
+    width: 50px;
+    height: 50px;
+}
