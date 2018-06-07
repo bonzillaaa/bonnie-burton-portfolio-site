@@ -1,7 +1,7 @@
 /***** BASE STYLES *****/
 
 body {
-    background: url('../img/together.jpg') no-repeat center center fixed;
+    background: url('../img/together-dark.png') no-repeat center center fixed;
     background-size: cover;
     color: #f6fa83;
     font-family: 'Josefin Sans', sans-serif;
@@ -17,24 +17,11 @@ body {
     width: 1200px;
 }
 
-.half-width {
-    float: left;
-    margin: 0 auto;
-    padding: 30px 30px 100px 30px;
-    width: 500px;
-}
-
 .third-width {
     float: left;
     margin: 0 auto;
     padding: 25px;
     width: 350px;
-}
-
-h1, h2, h3, h4 {
-  color: #2c439b;
-  font-weight: 100, lighter;
-  text-align: center;
 }
 
 /*******HEADER*********/
@@ -57,134 +44,52 @@ nav ul li a{
     text-decoration: none;
 }
 
-header h1{
-    color: #dfa0c8;
-    font-family: 'Shrikhand', cursive;
-    font-size: 40px;
-    margin-top: 150px;
-    padding-left: 55px;
-    text-align: left;
-}
-
-header h1 #world{
-    color: #f6fa83;
-}
-
 /************ABOUT*************/
 
 main h3{
+    color: #f6fa83;
     font-family: 'Shrikhand', cursive;
     font-size: 36px;
-    font-weight: bold;
     text-align: center;
 }
 
-main #about{
-    font-size: 28px;
-    padding-top: 75px;
-    padding-left: 75px;
-}
-
-/***********SERVICES**********/
-
-.full-width-services {
-    float: left;
-    margin: 0 auto;
-    width: 1200px;
-}
-
-.third-width-services{
-  float: left;
-  margin: 0 auto;
-  padding-left: 100px;
-  width: 300px;
-}
-
-.third-width-services img{
-  height: 200px;
-  width: auto;
-}
-
-.third-width-services h4{
-  margin-left: -30px;
-  text-align: left;
-}
-
-.third-width-services #social-media{
-  margin-left: -50px;
-  margin-bottom: -20px;
-  text-align: center;
-  width: 300px;
-}
-
-h4{
-  font-size: 22px;
-  text-transform: uppercase;
-}
-
-.services{
-  line-height: 36px;
-  margin-left: -35px;
-  padding-top: 50px;
-  text-align: center;
-  width: 270px;
-}
-
-/***********WORK***************/
-
-.third-width img {
-    width: 380px;
-    height: auto;
-}
-
-.third-width p{
-  text-align: justify;
-}
-
-
 /**********CONTACT************/
 
-.full-width p{
-background: rgba(44, 67, 155, 0.5);
-color: #f6fa83;
-}
-
-.full-width-header{
-    float: left;
-    margin: 0 auto;
-    width: 1200px;
-}
-
 .third-width-contact{
+    color: #f6fa83;
     float: left;
+    font-family: 'Coustard', courier;
     font-size: 24;
-    height: 200px;
-    margin: 0 auto;
-    padding: 50px;
-    width: 300px;
-}
-
-.third-width-ufo{
-  float: left;
-  height: 200px;
-  margin: 0 auto;
-  padding: 30px 0px 70px 75px;
-  width: 300px;
+    text-align: center;
+    width: 1200px;
 }
 
 .third-width-social{
-  float: left;
-  height: 200px;
-  padding: 90px 55px 10px 70px;
+  align-items: center;
+  height: 230px;
+  padding: 90px 55px 10px 450px;
   width: 300px;
-}
-
-.third-width-ufo img{
-   height: 200px;
-   width: 200px;
 }
 
 .third-width-social img {
     height: 50px;
     width: 50px;
 }
+
+h4{
+    color: #f6fa83;
+    font-family: 'Shrikhand', cursive;
+    font-size: 24px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+/*******colors
+
+#2c439b; dark blue;
+#f6fa83; yellow;
+#dfa0c8; pink;
+#01c7f7; blue;
+
+************/

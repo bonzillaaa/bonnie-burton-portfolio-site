@@ -1,7 +1,6 @@
 /***** BASE STYLES *****/
 
 body {
-    background-color: #16173a;
     color: #8889a8;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
@@ -122,45 +121,28 @@ main #about{
 /**********CONTACT************/
 
 .full-width-header{
-    background-color: #2a2c6f;
     float: left;
-    margin: 0 auto;
-    width: 100%;
+    margin: 50px 0px 0px 0px;
+    width: 1200px;
 }
 
 .third-width-contact{
-    background-color: #2a2c6f;
     float: left;
     font-size: 24;
     height: 200px;
     margin: 0 auto;
     padding: 50px;
-    width: 30%;
-}
-
-.third-width-ufo{
-  background-color: #2a2c6f;
-  float: left;
-  height: 200px;
-  margin: 0 auto;
-  padding: 30px 0px 70px 75px;
-  width: 30%;
+    width: 300px;
 }
 
 .third-width-social{
-  background-color: #2a2c6f;
   float: left;
   height: 200px;
-  padding: 90px 41px 10px 50px;
-  width: 30%;
-}
-
-.third-width-ufo img{
-   width: 200px;
-   height: 200px;
+  padding: 90px 55px 10px 70px;
+  width: 300px;
 }
 
 .third-width-social img {
-    width: 50px;
     height: 50px;
+    width: 50px;
 }
