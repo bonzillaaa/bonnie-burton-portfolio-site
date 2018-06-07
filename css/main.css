@@ -162,21 +162,14 @@ h4{
 /***********WORK***************/
 
 .full-width-work{
-  float: left;
-  margin: 0 auto;
-  width: 1200px;
-}
-
-.full-width-work h2{
-   color: #f6fa83;
-}
-
-.third-width-work h4{
-   color: #f6fa83;
+   float: left;
+   margin: 0 auto;
+   width: 1200px;
 }
 
 .third-width-work p{
-padding-left: 35px;
+    padding-left: 35px;
+    text-align: center;
 }
 
 .third-width-work{

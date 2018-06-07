@@ -52,6 +52,11 @@ nav ul li{
     text-transform: uppercase;
 }
 
+nav ul li a{
+    color: #f6fa83;
+    text-decoration: none;
+}
+
 header h1{
     color: #dfa0c8;
     font-family: 'Shrikhand', cursive;
@@ -138,6 +143,11 @@ h4{
 
 
 /**********CONTACT************/
+
+.full-width p{
+background: rgba(44, 67, 155, 0.5);
+color: #f6fa83;
+}
 
 .full-width-header{
     float: left;
