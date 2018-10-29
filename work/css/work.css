@@ -1,0 +1,143 @@
+body {
+    background: url('../img/hero-big.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #2c439b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: auto;
+    width: 1200px;
+}
+
+main h3{
+    font-family: 'Shrikhand', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.full-width {
+    float: left;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.third-width {
+    float: left;
+    margin: 0 auto;
+    padding: 20px;
+    width: 350px;
+}
+
+h1, h2, h3, h4 {
+  color: #2c439b;
+  font-weight: 100, lighter;
+  margin: 0 auto;
+  padding: 25px 0px 25px 0px;
+  text-align: center;
+}
+
+
+/*******HEADER*********/
+/*******DONE*********/
+
+nav ul li{
+    color: #f6fa83;
+    display: inline-block;
+    float: left;
+    font-size: 20pt;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a{
+    color: #f6fa83;
+    text-decoration: none;
+}
+
+/*********DONE*********/
+
+.full-width-work{
+   color: #f6fa83;
+   float: left;
+   margin: 0 auto;
+   width: 1200px;
+}
+
+#past-work{
+   color: #f6fa83;
+}
+
+.third-width-work p{
+    padding-left: 35px;
+    text-align: center;
+}
+
+.third-width-work{
+    color: #f6fa83;
+    float: left;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 0px;
+    width: 400px;
+}
+
+.third-width-work img{
+    margin: 5px;
+    width: 390px;
+    height: auto;
+}
+
+.third-width p{
+  text-align: justify;
+}
+
+
+/**********CONTACT************/
+/*******DONE*********/
+
+.full-width-header{
+    background: rgba(255, 255, 255, 0.5);
+    float: left;
+    margin: 50px 0px 0px 0px;
+    width: 1200px;
+}
+
+.third-width-contact{
+    background: rgba(255, 255, 255, 0.5);
+    float: left;
+    font-size: 24;
+    height: 200px;
+    margin: 0 auto;
+    padding: 50px;
+    width: 300px;
+}
+
+.third-width-ufo{
+  background: rgba(255, 255, 255, 0.5);
+  float: left;
+  height: 200px;
+  margin: 0 auto;
+  padding: 30px 0px 70px 75px;
+  width: 300px;
+}
+
+.third-width-social{
+  background: rgba(255, 255, 255, 0.5);
+  float: left;
+  height: 200px;
+  padding: 90px 55px 10px 70px;
+  width: 300px;
+}
+
+.third-width-ufo img{
+   height: 200px;
+   width: 200px;
+}
+
+.third-width-social img {
+    height: 50px;
+    width: 50px;
+}
