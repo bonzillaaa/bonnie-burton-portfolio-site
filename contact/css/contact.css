@@ -5,7 +5,7 @@ body {
     background-size: cover;
     color: #f6fa83;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     margin: auto;
     width: 1200px;
@@ -20,7 +20,7 @@ body {
 .third-width {
     float: left;
     margin: 0 auto;
-    padding: 25px;
+    padding: 20px;
     width: 350px;
 }
 
