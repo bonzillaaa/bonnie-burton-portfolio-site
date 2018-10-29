@@ -162,9 +162,15 @@ h4{
 /***********WORK***************/
 
 .full-width-work{
+   background: rgba(44, 67, 155, 0.50);
+   color: #f6fa83;
    float: left;
    margin: 0 auto;
    width: 1200px;
+}
+
+#past-work{
+   color: #f6fa83;
 }
 
 .third-width-work p{
@@ -176,11 +182,6 @@ h4{
     color: #f6fa83;
     height: 500px;
     margin-bottom: 50px;
-}
-
-.full-width-work, .third-width-work{
-    background: rgba(44, 67, 155, 0.50);
-    color: #f6fa83;
 }
 
 .third-width-work {
